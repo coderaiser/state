@@ -42,5 +42,8 @@
     "nyc": "^15.0.0",
     "putout": "^7.4.1",
     "supertape": "^1.2.3"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
