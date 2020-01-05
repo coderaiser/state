@@ -67,7 +67,7 @@ MIT
 [DependencyStatusIMGURL]:   https://img.shields.io/david/coderaiser/@cloudcmd/state.svg?style=flat
 [LicenseIMGURL]:            https://img.shields.io/badge/license-MIT-317BF9.svg?style=flat
 [NPMURL]:                   https://npmjs.org/package/@cloudcmd/state "npm"
-[BuildStatusURL]:           https://travis-ci.org/coderaiserstate  "Build Status"
+[BuildStatusURL]:           https://travis-ci.org/coderaiser/state  "Build Status"
 [DependencyStatusURL]:      https://david-dm.org/coderaiser/state "Dependency Status"
 [LicenseURL]:               https://tldrlegal.com/license/mit-license "MIT License"
 
