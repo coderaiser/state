@@ -71,6 +71,6 @@ MIT
 [DependencyStatusURL]:      https://david-dm.org/coderaiser/state "Dependency Status"
 [LicenseURL]:               https://tldrlegal.com/license/mit-license "MIT License"
 
-[CoverageURL]:              https://coveralls.io/github/coderaiser/@cloudcmd/state?branch=master
-[CoverageIMGURL]:           https://coveralls.io/repos/coderaiser/@cloudcmd/state/badge.svg?branch=master&service=github
+[CoverageURL]:              https://coveralls.io/github/coderaiser/state?branch=master
+[CoverageIMGURL]:           https://coveralls.io/repos/coderaiser/state/badge.svg?branch=master&service=github
 
