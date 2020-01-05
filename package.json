@@ -17,6 +17,12 @@
     "watch:coverage:tape": "madrun watch:coverage:tape",
     "watch:coverage": "madrun watch:coverage"
   },
+  "nyc": {
+    "exclude": [
+      "test",
+      ".*.js"
+    ]
+  },
   "repository": {
     "type": "git",
     "url": "git://github.com/coderaiser/state.git"
