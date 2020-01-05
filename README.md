@@ -63,8 +63,8 @@ if (error)
 MIT
 
 [NPMIMGURL]:                https://img.shields.io/npm/v/@cloudcmd/state.svg?style=flat
-[BuildStatusIMGURL]:        https://img.shields.io/travis/coderaiser/@cloudcmd/state/master.svg?style=flat
-[DependencyStatusIMGURL]:   https://img.shields.io/david/coderaiser/@cloudcmd/state.svg?style=flat
+[BuildStatusIMGURL]:        https://img.shields.io/travis/coderaiser/state/master.svg?style=flat
+[DependencyStatusIMGURL]:   https://img.shields.io/david/coderaiser/state.svg?style=flat
 [LicenseIMGURL]:            https://img.shields.io/badge/license-MIT-317BF9.svg?style=flat
 [NPMURL]:                   https://npmjs.org/package/@cloudcmd/state "npm"
 [BuildStatusURL]:           https://travis-ci.org/coderaiser/state  "Build Status"
