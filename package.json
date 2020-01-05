@@ -1,6 +1,6 @@
 {
   "name": "@cloudcmd/state",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "simplest possible state machine",
   "main": "lib/state.js",
   "scripts": {
