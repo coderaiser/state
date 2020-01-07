@@ -19,35 +19,49 @@ const states = {
     'ok': [],
 };
 
-const nextState = simpleState('init', states);
+const stateMachine = simpleState('init', states);
 
-nextState('process');
+stateMachine.on('state-not-found', (name) => {
+    console.error('state not found:', name);
+})
+
+stateMachine.on('before-next-state', (name) => {
+    console.log(`before next state: ${name}`);
+})
+
+stateMachine.on('next-state', (name) => {
+    console.log(`next state: ${name}`);
+})
+
+stateMachine.on('after-next-state', (name) => {
+    console.log(`after next state: ${name}`);
+})
+
+stateMachine.on('before:next-state:init') => {
+    console.log('before some kind of init');
+})
+
+stateMachine.on('next-state:init') => {
+    console.log('some kind of init');
+});
+
+stateMachine.on('after:next-state:init') => {
+    console.log('after some kind of init');
+})
+
+const {setNext} = stateMachine;
+
+const [status, processName] = setNext('process');
 // returns
-'process'
+[true, 'process']
 
-nextState('hello');
-// throws
-Error: Wrong state: process -> hello
-
-nextState('error');
+const [status] = setNext('hello');
 // returns
-'error'
+[false];
 
-nextState('any');
-// throws
-Error: Wrong state: error -> hello
-```
-
-Works great with [try-catch](https://github.com/coderaiser/try-catch).
-
-```js
-const tryCatch = require('try-catch');
-const nextState = simpleState('init', states);
-
-const [error] = nextState('hello');
-
-if (error)
-    return console.error(`Can't set that state`);
+setNext('error');
+// returns
+[true, 'error']
 ```
 
 ## Related
