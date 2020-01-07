@@ -1,3 +1,9 @@
+2020.01.07, v2.0.0
+
+feature:
+- (state) add ability to subscribe to events
+
+
 2020.01.05, v1.0.4
 
 fix:
