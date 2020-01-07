@@ -11,7 +11,7 @@ test('simple-state', (t) => {
         progress: ['ok', 'error'],
     });
     
-    const [status, result] = setNext('progress');
+    const [, result] = setNext('progress');
     
     t.equal(result, 'progress');
     t.end();
